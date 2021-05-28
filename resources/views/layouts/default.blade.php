@@ -7,6 +7,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <title>{{ $title ?? 'Website' }}</title>
     @livewireStyles
+    @yield('og')
 </head>
 
 <body class="antialiased">
