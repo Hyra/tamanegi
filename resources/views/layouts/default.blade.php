@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <title>{{ $title ?? 'Website' }}</title>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
     @livewireStyles
     @yield('og')
 </head>
@@ -23,7 +24,7 @@
         }
         gtag('js', new Date());
 
-        gtag('config', 'UA-40203772-4');
+        gtag('config', 'UA-XXXXXX-XX');
 
     </script>
 
